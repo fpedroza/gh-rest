@@ -19,7 +19,6 @@ jobs:
       MONGODB_PASSWORD: gha-demo-test
       MONGODB_USERNAME: gha-demo-test
       PORT: 8080
-    environment: testing
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
